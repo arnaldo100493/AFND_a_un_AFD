@@ -13,6 +13,10 @@ import com.afndaunafd.vista.Pantalla;
  */
 public class Main {
 
+    public Main() {
+
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -20,5 +24,5 @@ public class Main {
         // TODO code application logic here
         new Pantalla().setVisible(true);
     }
-    
+
 }
